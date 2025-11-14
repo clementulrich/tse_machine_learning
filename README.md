@@ -8,6 +8,7 @@ Il comprend à la fois les fichiers de consignes (format Jupyter Notebook) et me
 
 ## Structure du dépôt
 
+``` bash
 ├── labs/
 │ ├── PyTorch_Lab1_introtorch.ipynb
 │ ├── PyTorch_Lab2_newton.ipynb
@@ -26,6 +27,7 @@ Il comprend à la fois les fichiers de consignes (format Jupyter Notebook) et me
 │ └── lab6.py
 ├── README.md
 └── .gitignore
+```
 
 
 - **`labs/`** : Notebooks Jupyter contenant les consignes originales, explications et squelettes de code à compléter.

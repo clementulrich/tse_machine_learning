@@ -20,6 +20,7 @@ def generate_data(seq_length, num_samples):
         sequences.append(data[i:i + seq_length])
         targets.append(data[i + seq_length])
     return np.array(sequences), np.array(targets)
+
 print("La fonction generate_data crée une série temporelle en générant une ")
 print("suite de valeurs sinusoïdales uniformément espacées. Elle découpe ensuite")
 print("cette série en séquences de longueur fixe, chaque séquence étant associée")
